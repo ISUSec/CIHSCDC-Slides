@@ -58,6 +58,36 @@
 
   6. Everything else
 
+### Example 1
+
+  * Blue team forgets to change the default password on their Windows server with
+    remote desktop enabled
+
+  * Red team knows the default password and logs in
+
+### Example 2
+
+  * Blue team forgets to update their Ubuntu server from a vulnerable version
+
+  * Red team googles the version they see running, finds a CVE, and owns the box
+
+### Example 3
+
+  * Red team sends an email from wh1teteam@gmail.com with a fake inject telling
+    blue team to configure their servers insecurely
+
+  * Blue team listens to them
+
+  * Red team takes advantage of their insecure configuration
+
+### Example 4
+
+  * Red team owns a box as above
+
+  * Blue team brings it back online after a reset
+
+  * Red team owns it again in less than 10 seconds because they have a script
+
 ## How do we make things not go wrong?
 
   * Work with failure
