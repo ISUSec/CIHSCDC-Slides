@@ -1,5 +1,7 @@
 # How to win CIHSCDC
 
+---
+
 ## What's going to happen?
 
   * You will have a small network containing:
@@ -12,11 +14,17 @@
 
     * ???
 
+----
+
   * You will have to both defend against attackers and perform jobs called
     "injects"
 
+----
+
   * You'll have a brief setup period and then red team is going to try to break
     all your things
+
+---
 
 ## How do we win?
 
@@ -25,6 +33,8 @@
     * When you do get hacked, fill out incident report forms
 
   * Do the injects
+
+---
 
 ## How is this hard?
 
@@ -38,17 +48,29 @@
 
   * ~~A plague of locusts o'er the land~~
 
+---
+
 ## What goes wrong?
 
 (In rough order of commonness)
 
+----
+
   1. Default passwords (there are more of these than you think)
+
+----
 
   2. Non-updated computers (old Windows XP security is not your friend)
 
+----
+
   3. Social Engineering (they literally ask nicely and you listen)
 
+----
+
   4. People get scared and panicky and fall into a black hole of failure
+
+----
 
   5. Red team has backdoored your stuff in advance and you didn't notice
 
@@ -56,7 +78,11 @@
 
     * They also have a box on your network
 
+----
+
   6. Everything else
+
+---
 
 ### Example 1
 
@@ -65,11 +91,15 @@
 
   * Red team knows the default password and logs in
 
+----
+
 ### Example 2
 
   * Blue team forgets to update their Ubuntu server from a vulnerable version
 
   * Red team googles the version they see running, finds a CVE, and owns the box
+
+----
 
 ### Example 3
 
@@ -80,6 +110,8 @@
 
   * Red team takes advantage of their insecure configuration
 
+----
+
 ### Example 4
 
   * Red team owns a box as above
@@ -87,6 +119,8 @@
   * Blue team brings it back online after a reset
 
   * Red team owns it again in less than 10 seconds because they have a script
+
+---
 
 ## How do we make things not go wrong?
 
@@ -96,16 +130,24 @@
 
     * Panic is bad
 
+----
+
   * Have designated roles and plans (more on this later)
+
+----
 
   * Git gud (at googling)
 
     * There are a lot of things to know. No one actually knows all of them.
       Pretty much all of them are on stackoverflow somewhere
 
+----
+
   * Have plans written down
 
     * You can write down passwords too
+
+----
 
   * Fix machines before bringing them back up
 
@@ -113,7 +155,11 @@
 
     * Just take the downtime and patch with the system 100% offline
 
+---
+
 ## Roles
+
+---
 
 ### Team Captain
 
@@ -124,6 +170,8 @@
   * Have a big picture
 
   * Be a gopher
+
+----
 
   * Direct effort
 
@@ -137,6 +185,8 @@
 
     * This is more keeping things organized than being in charge
 
+---
+
 ### Firewall Admin
 
   * UPDATE
@@ -147,6 +197,8 @@
 
   * Look at outbound connections
 
+----
+
   * Look at boxes on your network
 
     * One of these is probably red team
@@ -154,6 +206,8 @@
   * If red team owns your firewall, they can kill your whole net
 
     * This is probably a bad thing
+
+---
 
 ### Linux Admin
 
@@ -169,6 +223,8 @@
 
   * `chattr +i $FILE` makes a file immutable. `chattr -i $FILE` fixes it.
 
+----
+
   * Run Enigmail. Otherwise you will get social engineered to death
 
   * Get rid of setuids
@@ -178,6 +234,8 @@
   * ufw is cool
 
   * fail2ban is cool
+
+----
 
   * Monitor
 
@@ -195,6 +253,8 @@
 
       * `/etc/sudoers`
 
+---
+
 ### Windows Admin
 
   * UPDATE
@@ -205,6 +265,8 @@
 
   * Event viewer is cool
 
+----
+
   * Autoruns are scary
 
   * Process explorer is cool
@@ -214,6 +276,8 @@
   * Use your firewall
 
   * Active Directory is cool
+
+----
 
   * Windows Group Policy is worth looking at
 
