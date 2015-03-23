@@ -56,31 +56,31 @@
 
 ----
 
-  1. Default passwords (there are more of these than you think)
+  1\. Default passwords (there are more of these than you think)
 
 ----
 
-  2. Non-updated computers (old Windows XP security is not your friend)
+  2\. Non-updated computers (old Windows XP security is not your friend)
 
 ----
 
-  3. Social Engineering (they literally ask nicely and you listen)
+  3\. Social Engineering (they literally ask nicely and you listen)
 
 ----
 
-  4. People get scared and panicky and fall into a black hole of failure
+  4\. People get scared and panicky and fall into a black hole of failure
 
 ----
 
-  5. Red team has backdoored your stuff in advance and you didn't notice
+  5\. Red team has backdoored your stuff in advance and you didn't notice
 
-    * Red team _has_ backdoored your stuff
+  * Red team _has_ backdoored your stuff
 
-    * They also have a box on your network
+  * They also have a box on your network
 
 ----
 
-  6. Everything else
+  6\. Everything else
 
 ---
 
