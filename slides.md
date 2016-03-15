@@ -144,8 +144,10 @@
 ----
 
   * Have plans written down
-
+    * Have enough copies of everything
     * You can write down passwords too
+    * Have a list of the users you know for each machine
+    * Have a list of the standard services for each machine
 
 ----
 
@@ -234,6 +236,8 @@
   * ufw is cool
 
   * fail2ban is cool
+ 
+  * read the logs
 
 ----
 
@@ -282,3 +286,10 @@
   * Windows Group Policy is worth looking at
 
     * Audit policy especially
+
+----
+  * Questions?
+ 
+    * Contact ISUSEC
+    * Contact Dr. Twitchell
+ 
